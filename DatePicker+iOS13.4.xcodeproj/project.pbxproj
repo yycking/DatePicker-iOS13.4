@@ -13,6 +13,7 @@
 		A6DFCF9826A2AAF6009F516C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DFCF9626A2AAF6009F516C /* Main.storyboard */; };
 		A6DFCF9A26A2AAFB009F516C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DFCF9926A2AAFB009F516C /* Assets.xcassets */; };
 		A6DFCF9D26A2AAFB009F516C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DFCF9B26A2AAFB009F516C /* LaunchScreen.storyboard */; };
+		A6DFCFA726A2AB75009F516C /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFCFA626A2AB75009F516C /* DatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		A6DFCF9926A2AAFB009F516C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6DFCF9C26A2AAFB009F516C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6DFCF9E26A2AAFB009F516C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DFCFA626A2AB75009F516C /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		A6DFCFA926A2D9D2009F516C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		A6DFCF8426A2AAF6009F516C = {
 			isa = PBXGroup;
 			children = (
+				A6DFCFA926A2D9D2009F516C /* README.md */,
 				A6DFCF8F26A2AAF6009F516C /* DatePicker+iOS13.4 */,
 				A6DFCF8E26A2AAF6009F516C /* Products */,
 			);
@@ -63,6 +67,7 @@
 				A6DFCF9926A2AAFB009F516C /* Assets.xcassets */,
 				A6DFCF9B26A2AAFB009F516C /* LaunchScreen.storyboard */,
 				A6DFCF9E26A2AAFB009F516C /* Info.plist */,
+				A6DFCFA626A2AB75009F516C /* DatePicker.swift */,
 			);
 			path = "DatePicker+iOS13.4";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				A6DFCF9526A2AAF6009F516C /* ViewController.swift in Sources */,
 				A6DFCF9126A2AAF6009F516C /* AppDelegate.swift in Sources */,
 				A6DFCF9326A2AAF6009F516C /* SceneDelegate.swift in Sources */,
+				A6DFCFA726A2AB75009F516C /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRU74Q6CGE;
 				INFOPLIST_FILE = "DatePicker+iOS13.4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRU74Q6CGE;
 				INFOPLIST_FILE = "DatePicker+iOS13.4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,11 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITableViewController {
+    @IBOutlet weak var defaultDatePicker: DatePicker!
+    @IBOutlet weak var buttonDatePicker: DatePicker!
+    @IBOutlet weak var textFieldDatePicker: DatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        buttonDatePicker.style = .button
+        textFieldDatePicker.style = .textField
     }
 
 
