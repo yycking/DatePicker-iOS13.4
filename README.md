@@ -11,12 +11,12 @@ if #available(iOS 13.4, *) {
 3. Show `DatePicker` as Keyboard or PopoverPresentation
 
 ## Style
-1. default
-    ![default](./doc/default.png)
-    (Below 13.4, use button style.)
-2. button
-    Show `DatePicker` as  PopoverPresentation
-    ![default](./doc/button.png)
-3. textField. 
-    Show `DatePicker` as Keyboard
-    ![default](./doc/textField.png)
+1. default. \
+    ![default](./doc/default.png). \
+    (Below 13.4, use button style.). 
+2. button. \
+    Show `DatePicker` as  PopoverPresentation. \
+    ![default](./doc/button.png). 
+3. textField. \
+    Show `DatePicker` as Keyboard. \
+    ![default](./doc/textField.png). 
