@@ -86,10 +86,10 @@ class DatePicker: UIView {
             formatter.dateStyle = .none
             formatter.timeStyle = .short
         case .date:
-            formatter.dateStyle = .short
+            formatter.dateStyle = .medium
             formatter.timeStyle = .none
         case .dateAndTime:
-            formatter.dateStyle = .short
+            formatter.dateStyle = .medium
             formatter.timeStyle = .short
         default:
             break
